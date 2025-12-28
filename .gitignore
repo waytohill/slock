@@ -1,0 +1,5 @@
+*.o
+slock
+sentinel
+
+*.swp
