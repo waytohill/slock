@@ -6,11 +6,11 @@ static const char *group = "nobody";
  * 既保持了 Geek 的深色护眼，又加入了粉色(Pink)作为输入反馈
  */
 static const char *colorname[NUMCOLS] = {
-    [BACKGROUND] = "#1e1e2e",   /* 极夜深蓝背景 */
-    [INIT] =   "#cdd6f4",       /* 初始化/等待 */
-    [INPUT] =  "#f5c2e7",       /* 输入中*/
-    [FAILED] = "#f38ba8",       /* 错误 */
-    [CAPS] = "#fab387",         /* CapsLock */
+    [BACKGROUND] = "#2C3040",   /* 极夜深蓝背景 */
+    [INIT] =   "#F2F0F0",       /* 初始化/等待 */
+    [INPUT] =  "#E89CAD",       /* 输入中*/
+    [FAILED] = "#C45C66",       /* 错误 */
+    [CAPS] =   "#6D5852",       /* CapsLock */
 };
 
 /* treat a cleared input like a wrong password (color) */
